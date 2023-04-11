@@ -1,0 +1,32 @@
+{
+  "default": [
+    {
+      "slug": "css-bfc",
+      "date": "2022-11-24",
+      "title": "一个名称",
+      "type": "default"
+    }
+  ],
+  "git": [
+    {
+      "slug": "reset-squash",
+      "date": "2022-11-24",
+      "title": "git常用命令",
+      "type": "git"
+    },
+    {
+      "slug": "my-first-blog-post",
+      "date": "2022-11-24",
+      "title": "删除分支",
+      "type": "git"
+    }
+  ],
+  "工具类": [
+    {
+      "slug": "use-nvm-windows",
+      "date": "2022-11-24",
+      "title": "windows上nvm的安装使用",
+      "type": "工具类"
+    }
+  ]
+}

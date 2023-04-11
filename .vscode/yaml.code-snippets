@@ -1,0 +1,18 @@
+{
+	"Print to console": {
+		"scope": "*.md,mdx,markdown",
+		"prefix": "markdown",
+		"body": [
+			"$BLOCK_COMMENT_START",
+			"---",
+			"slug: ${1:blog 路径}",
+			"date: ${2:更新日期}",
+			"title: ${3:文件名称}",
+			"type: ${4:分类}",
+			"---",
+			"$BLOCK_COMMENT_END",
+			""
+		],
+		"description": "生成yaml文件信息"
+	}
+}

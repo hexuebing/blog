@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ .gatsby-highlight {
+  @apply bg-slate-200 text-white;
+  /* background-color: blue; */
+  border-radius: 0.3em;
+  margin: 0.5em 0;
+  padding: 1em;
+  overflow: auto;
+}
+
+.gatsby-highlight pre[class*="language-"] {
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  overflow: initial;
+  float: left; /* 1 */
+  min-width: 100%; /* 2 */
+}
+
+/* 自定义样式 */
+h1 {
+  font-size: 2rem;
+}
+
+.markdown h2 {
+  @apply text-xl my-2 font-semibold
+}
+.markdown h3 {
+  @apply text-lg my-2 font-semibold
+}
+.markdown a {
+  @apply text-primary 
+}
+.markdown p {
+  @apply leading-7
+}
+.markdown ol {
+  list-style-type: decimal;
+  @apply pl-7
+}
